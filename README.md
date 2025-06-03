@@ -65,3 +65,49 @@ Then using template literal syntax, assign the string Here is an example of usin
 Replace [subject] with the subject variable like you did earlier.
 
 Finally, log the strLengthIntro variable to the console.
+
+Step 7
+To get the length of a string, you can use the length property. This property returns the number of characters in a string.
+
+Here is an example:
+
+Example Code
+const greeting = "Hello, world!";
+
+// Output: 13
+console.log(greeting.length);
+Start by using the length property to get the length of the subject string and log that value to the console.
+
+Step 8
+Now it is time to get the length of the topic string.
+
+You can use template literals inside console statements like this:
+
+Example Code
+const developer = "Jessica";
+console.log(`Hello, my name is ${developer}.`);
+Start by outputting the message Here is an example of using the length property on the word [topic]. to the console.
+
+Remember to replace [topic] with the topic variable, and use proper template literal syntax as you did in the previous steps.
+
+Then, add a second console.log statement that outputs the length of the topic string to the console.
+
+Step 9
+The next part of this workshop is to review accessing characters from a string.
+
+Start by outputting the message Here is an example of accessing the first letter in the word [subject]. to the console.
+
+Remember to replace [subject] with the subject variable and use proper template literal syntax like you did in the previous steps.
+
+Step 10
+In the previous lecture videos, you learned how to access characters in a string like this:
+
+Example Code
+const firstName = "Jessica";
+// returns "J"
+firstName[0];
+Remember that index numbers start at 0, so the first letter in a string will always be at index 0.
+
+Start by adding another console statement.
+
+Inside the console statement, output the first letter of the subject variable using bracket notation and the correct index number.
