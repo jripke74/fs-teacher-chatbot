@@ -13,7 +13,7 @@ Now it is time to set the bot's name.
 
 Create a variable called botName and assign it the string value of "teacherBot".
 
-Step 3 Passed
+Step 3
 Now it is time to create a greeting using the botName variable.
 
 In the previous lecture videos, you learned how to concatenate strings using template literals like this:
@@ -28,3 +28,40 @@ Start by creating a variable called greeting.
 Next, using template literal syntax, assign a string that says My name is, followed by the botName variable, and ending with a period (.).
 
 Finally, log the greeting variable to the console.
+
+Step 4
+The next step is to create a few more variables that will be used in future bot messages.
+
+Create a variable called subject and assign it the string value "JavaScript".
+
+Then create a variable called topic and assign it the string value "strings".
+
+Step 5
+Now, it's time to use the variables you created in the previous step.
+
+In the lecture videos, you learned how to work with template literals like this:
+
+Example Code
+const name = "John";
+const age = 30;
+
+// My name is John and I am 30 years old.
+`My name is ${name} and I am ${age} years old.`;
+Start by creating a sentence variable.
+
+Using template literal syntax, assign the string Today, you will learn about [topic variable goes here] in [subject variable goes here]. to the sentence variable.
+
+You will replace the [topic variable goes here] and [subject variable goes here] placeholders with the topic and subject variables and ${} syntax.
+
+Finally, log the sentence variable to the console.
+
+Step 6
+For this next portion of the project, the bot will teach working with the string length property.
+
+Start by creating a new variable called strLengthIntro.
+
+Then using template literal syntax, assign the string Here is an example of using the length property on the word [subject]. to the strLengthIntro variable.
+
+Replace [subject] with the subject variable like you did earlier.
+
+Finally, log the strLengthIntro variable to the console.
